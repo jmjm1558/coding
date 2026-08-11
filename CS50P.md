@@ -24,3 +24,10 @@ Didn't have too much time to solve both problems today, but I focused on solving
 
 Camel is my challenge for tomorrow. I won't pass to the next lecture until I solve Camel.
 
+## 11/08/2026
+
+#### Completed PSET2
+Note: Lecture 2 completed.
+
+Camel was not as hard as I imagine. I was over-complicating the problem by implementing "find()" and long lines of code, when the solution was only replacing each Capital letter with a " _ " + the same letter but with .lower(). This makes me learn that sometimes the right solution isn't the most elaborated, but the more robust, which can be the most simple.
+

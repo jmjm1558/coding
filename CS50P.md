@@ -20,7 +20,7 @@ I wrote part of the code of Camel but I couldn't complete it.
 #### Partially completed PSET2
 Note: 4/5 problems solved by my own.
 
-Didn't have too much time to solve both problems today, but I focused on solving at least one. Camel was such a challenge because it requested 6 different conditions to make a plate valid. After trying many times, I achieved each of the 6 conditions to make a plate valid or invalid, however, I forgot to implement the code in the "is_valid" function, which was inside another function "main". It took me more time to adapt my code but after many intents, I got it. 
+Didn't have too much time to solve both problems today, but I focused on solving at least one. Plates was such a challenge because it requested 6 different conditions to make a plate valid. After trying many times, I achieved each of the 6 conditions to make a plate valid or invalid, however, I forgot to implement the code in the "is_valid" function, which was inside another function "main". It took me more time to adapt my code but after many intents, I got it. 
 
 Camel is my challenge for tomorrow. I won't pass to the next lecture until I solve Camel.
 

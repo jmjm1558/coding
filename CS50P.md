@@ -40,5 +40,5 @@ Note: Tried fuel.py exercise.
 #### Continued PSET3
 Note: Solved fuel.py, taqueria.py and grocery.py successfully.
 
-Used except/try and pass/continue without over-complicating the code. Understood the difference between :.2f and round(number, 2). The first is to  give the string a different format, and the second is to change (round) the value of the number. .sort() needs a key=str to sort alphabetically a list. 
+Used except/try and pass/continue without over-complicating the code. Understood the difference between :.2f and round(number, 2). The first is to  give the string a different format, and the second is to change (round) the value of the number. .sort() needs a key=str to sort alphabetically a list. ValueError is importante and very useful (I'm gonna try it in my future code).
 

@@ -38,7 +38,7 @@ Note: Tried fuel.py exercise.
 
 ## 13/08/2026
 #### Continued PSET3
-Note: Solved fuel.py and taqueria.py successfully.
+Note: Solved fuel.py, taqueria.py and grocery.py successfully.
 
-Used except/try and pass/continue without over-complicating the code. Understood the difference between :.2f and round(number, 2). The first is to  give the string a different format, and the second is to change (round) the value of the number.
+Used except/try and pass/continue without over-complicating the code. Understood the difference between :.2f and round(number, 2). The first is to  give the string a different format, and the second is to change (round) the value of the number. .sort() needs a key=str to sort alphabetically a list. 
 

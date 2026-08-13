@@ -1,30 +1,21 @@
-nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
-try:
-    x = input("Fraction: ")
-    numerator = ""
-    denominator = ""
-    if "/" in x:
-        for i in x:
-            if i in nums:
-                for i in x[:x.find("/")]:
-                    numerator += i
-                for i in x[x.find("/"):]:
-                    denominator += i
-            numerator = int(numerator)
-            denominator = int(denominator)
-        if (numerator < denominator and numerator > 0) and 0 <= numerator <= 4 and 0 <= denominator <= 4:
-            factor = (numerator/denominator) * 100
-            if factor <= 1:
-                print("E")
-            elif factor >= 99:
-                print("F")
-            else:
-                print(factor)
+while True:
+    try:
+        x = input("Fraction: ")
+        num = int(x[:x.find("/")])
+        den = int(x[x.find("/")+1:])
+        factor = num/den * 100
+        if num < 0 or num > den:
+            continue
+        elif factor >= 99:
+            print("F")
+        elif factor <= 1:
+            print("E")
         else:
-            pass
-    else:
+            print(f"{round(factor)}%")
+    except ZeroDivisionError:
         pass
-except ZeroDivisionError:
-    pass
-except ValueError:
-    pass
+    except ValueError:
+        pass
+    else:
+        break
+

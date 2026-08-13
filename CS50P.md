@@ -35,3 +35,10 @@ Camel was not as hard as I imagine. I was over-complicating the problem by imple
 
 #### Started PSET3
 Note: Tried fuel.py exercise.
+
+## 13/08/2026
+#### Continued PSET3
+Note: Solved fuel.py successfully.
+
+Used except/try and pass/continue without over-complicating the code.
+

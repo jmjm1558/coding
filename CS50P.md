@@ -3,11 +3,13 @@
 ## 07/08/2026
 #### Completed PSET0
 Note: Lecture 0 completed.
+
 ## 08/08/2026
 #### Completed PSET1
 Note: Lecture 1 completed.
 
 I learned how to make cleaner and less redundant code. Identified issues or bugs without searching in internet (example: an unclosed parenthesis, missing quotes, wrong type of variable, etc). Used print() as a help to see what parameters or types of variables I'm working with.
+
 ## 09/08/2026
 #### Partially completed PSET2
 Note: 3/5 problems solved by my own.
@@ -37,8 +39,17 @@ Camel was not as hard as I imagine. I was over-complicating the problem by imple
 Note: Tried fuel.py exercise.
 
 ## 13/08/2026
-#### Continued PSET3
-Note: Solved fuel.py, taqueria.py and grocery.py successfully.
+#### Continued PSET3 and started PSET4
+Note: Solved all PSET3 and 2 PSET4's problems.
 
-Used except/try and pass/continue without over-complicating the code. Understood the difference between :.2f and round(number, 2). The first is to  give the string a different format, and the second is to change (round) the value of the number. .sort() needs a key=str to sort alphabetically a list. ValueError is importante and very useful (I'm gonna try it in my future code).
+Used except/try and pass/continue without over-complicating the code. Understood the difference between :.2f and round(number, 2). The first is to  give the string a different format, and the second is to change (round) the value of the number. .sort() needs a key=str to sort alphabetically a list. ValueError is important and very useful (I'm gonna try it in my future code).
+
+When documentation isn't enough to understand a function or library, I could use dir(function) or help(function), if this isn't helpful enough, I can deep into the source code with the library inspect using it as follows:
+
+```python
+# pip install inspect
+import inspect
+print(inspect.getsource(pyfiglet.FigletFont.isValidFont))
+
+```
 
